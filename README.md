@@ -31,11 +31,11 @@ To start application open index.html file.
 
 ### **SCREENSHOTS**
 
-![alt text](https://raw.githubusercontent.com/luani86/BIT-Blog/master/Screenshot_2018-07-08 BIT-BLOG.png)
+![alt text](https://raw.githubusercontent.com/luani86/BIT-Blog/master/Screenshot-1.png)
 
 
 
-![alt text](https://raw.githubusercontent.com/luani86/BIT-Blog/master/Screenshot_2018-07-08 BIT-BLOG(1).png)
+![alt text](https://raw.githubusercontent.com/luani86/BIT-Blog/master/Screenshot-2.png)
 
 ### **AUTHOR**
 
