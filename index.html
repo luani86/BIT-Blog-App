@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BIT-BLOG</title>
+</head>
+
+<body>
+        <main>
+    <nav>
+        <div id="header" class="nav-wrapper">
+            <a href="index.html" class="brand-logo">BIT-BLOG</a>
+            <ul id="header-links" id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a id="homeBtn" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a id="authorsBtn" href="#">Authors</a>
+                </li>
+                <li>
+                    <a id="aboutBtn" href="#">About</a>
+                </li>
+                <li>
+                    <a id="newPostBtn" href="#">Create Post</a>
+                </li>
+                <li>
+                    <a id="searchIconPosts" href="#"><i class="large material-icons">search</i></a>
+                </li>
+                <li>
+                    <a id="searchIconAuthors" href="#"><i class="large material-icons">search</i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="searchBarForPosts">
+        <div class="nav-wrapper">
+          <form>
+            <div class="input-field">
+              <input id="searchInputPosts" type="search" placeholder="Search Posts" required autofocus>
+              <label class="label-icon" for="search"></label>
+              <!-- <i class="material-icons">close</i> -->
+            </div>
+          </form>
+        </div>
+      </nav>
+
+    <nav id="searchBarForAuthors">
+        <div class="nav-wrapper">
+          <form>
+            <div class="input-field">
+              <input id="searchInputAuthors" type="search" placeholder="Search Authors" required autofocus>
+              <label class="label-icon" for="search"></label>
+              <!-- <i class="material-icons">close</i> -->
+            </div>
+          </form>
+        </div>
+      </nav>
+
+    <div class="container">
+
+    </div>
+</main>
+    <footer id="footer" class="page-footer">
+
+        <div class="footer-copyright">
+            <p class="footer-info">
+                <span id="footerText"></span>
+            </p>
+        </div>
+        
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <script src='js/data.js'></script>
+    <script src='js/ui.js'></script>
+    <script src='js/main.js'></script>
+
+    <script>
+        $(main.initApp)
+    </script>
+</body>
+
+</html>

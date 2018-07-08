@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 0 20 auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+  h2 {
+    font-size: 3em;
+    text-align: center;
+    margin: 0 20 auto;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+  a {
+ color: black;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+#header {
+    background-color: aliceblue;
+}
+#header a {
+    color: black;
+}
+#header ul li a {
+    color: black;
+}
+.brand-logo {
+    margin-left: 50px;
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+
+#header-links {
+    margin-right: 30px;
+}
+
+#searchBarForPosts {
+    display: none;
+}
+#searchBarForAuthors {
+    display: none;
+}
+
+#searchInputPosts {
+    background-color: white;
+}
+#searchInputAuthors {
+    background-color: white;
+}
+#searchIconPosts {
+    color: black;
+}
+#searchIconAuthors {
+    color: black;
+    display: none;
+}
+/* Home Page */
+.singlePostTitle {
+    margin-bottom: -15px;
+    padding: 0px;
+}
+.postListItem {
+    margin: 0px;
+}
+/* About Page */
+.aboutParagraph, .ourStoryParagraph {
+    text-align: center;
+}
+/* Single Post Page */
+.authorName {
+    text-align: center;
+}
+/* Single Author Page */
+.authorNameSingleAuthorPage {
+margin: 0px;
+}
+/* New Post Page */
+#newPostSubmitBtn {
+    float: right;
+}
+#newPostResetBtn {
+    float: right;
+    margin-left: 30px;
+}
+.directionBtn {
+    font-size: 0.4em;
+    position: absolute;
+    left: 20%;
+}
+.directionBtn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.directionBtn {
+    font-size: 1em;
+    position: absolute;
+    left: 15%;
+    top: 13%;
+}
+.row {
+    margin: 0px;
+}
+  /* Empty page */
+  .emptyPageMessage {
+    margin: 200px auto;
+    text-align: center;
+    width: 400px;
+    color: grey;
+    font-size: 2em;
+  }
+#footer {
+    background-color: aliceblue;
+    padding-top: 0px;
+}
+#footer p {
+   color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
