@@ -2,7 +2,7 @@
 
 Check out the project here: [Live Demo](https://luani86.github.io/index.html)
 
-BIT-Blog application is a blogging platform-like application. You can read posts from other user or write your own posts. You can also filter posts by author, search posts by titl and authors by name, read more about authors etc.
+BIT-Blog application is a blogging platform-like application. You can read posts from other user or write your own posts. You can also filter posts by author, search posts by title and authors by name, read more about authors etc.
 
 
 ### **TECHNOLOGIES**
@@ -13,7 +13,7 @@ HTML5, CSS3, JavaScript (ES6), Materialize
 ### **PROJECT STRUCTURE**
 
 ```
-BIT-BLOG/
+BIT-Blog-App/
     index.html
     css/
         style.css
